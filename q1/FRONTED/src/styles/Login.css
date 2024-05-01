@@ -1,0 +1,81 @@
+.login_container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.login_container h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.login_divs {
+  display: flex;
+  border-radius: 15px;
+}
+
+.from_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-wrapper {
+  margin-bottom: 15px;
+}
+
+.input-wrapper label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 4px;
+  border: 1px solid blueviolet;
+  color: black;
+}
+
+.auth-switch {
+  padding: 10px;
+  text-align: center;
+}
+
+.error-message {
+  color: red;
+  padding: 10px;
+  text-align: center;
+  font-size: small;
+}
+
+.login_page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-login {
+  width: 50%;
+}
+
+.auth-switch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.auth-switch button {
+  width: fit-content;
+}
